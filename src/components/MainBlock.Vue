@@ -128,7 +128,16 @@ export default {
 };
 </script>
 
+<style scoped>
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 
-<style>
-
+h1 {
+  padding-bottom: 20px;
+  font-size: 72px;
+  font-family: "Permanent Marker", cursive;
+  background: -webkit-linear-gradient(rgb(198, 26, 118), rgb(82, 19, 177));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 10px;
+}
 </style>
